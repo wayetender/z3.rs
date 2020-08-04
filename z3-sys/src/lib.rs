@@ -1559,7 +1559,6 @@ pub enum GoalPrec {
     UnderOver = generated::Z3_goal_prec::Z3_GOAL_UNDER_OVER as u32,
 }
 
-#[link(name = "z3")]
 extern "C" {
     /// Set a global (or module) parameter.
     /// This setting is shared by all Z3 contexts.
